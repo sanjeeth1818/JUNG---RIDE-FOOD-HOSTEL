@@ -1,0 +1,138 @@
+{
+  "users": {
+    "john@example.com": {
+      "email": "john@example.com",
+      "profile": {
+        "name": "bb",
+        "email": "john@example.com",
+        "phone": "+1 234 567 890",
+        "avatar": null
+      },
+      "location": {
+        "type": "university",
+        "name": "Current Location (GPS)",
+        "coords": {
+          "lat": 6.9271,
+          "lng": 79.8612
+        }
+      },
+      "userType": "student",
+      "updatedAt": "2026-01-22T18:52:04.702Z"
+    }
+  },
+  "partners": {
+    "partner_1768932885892": {
+      "id": "partner_1768932885892",
+      "name": "Backend Tester",
+      "phone": "+94 11 222 3333",
+      "email": "test@backend.com",
+      "type": "Rider",
+      "status": "Pending",
+      "updatedAt": "2026-01-20T18:14:45.899Z"
+    },
+    "partner_1768987630641": {
+      "id": "partner_1768987630641",
+      "name": "amandi",
+      "phone": "654",
+      "email": "kabilkanthankk@gmail.com",
+      "type": "Rider",
+      "status": "Pending",
+      "updatedAt": "2026-01-21T09:27:10.648Z"
+    }
+  },
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Campus Canteen Main",
+      "type": "Rice & Curry",
+      "rating": 4.5,
+      "time": "10 min",
+      "img": "#4CAF50",
+      "category": "uni"
+    },
+    {
+      "id": 2,
+      "name": "Science Faculty Cafe",
+      "type": "Short Eats",
+      "rating": 4.2,
+      "time": "5 min",
+      "img": "#8BC34A",
+      "category": "uni"
+    },
+    {
+      "id": 3,
+      "name": "Hostel Mess Hall",
+      "type": "Dinner Only",
+      "rating": 3.8,
+      "time": "15 min",
+      "img": "#CDDC39",
+      "category": "uni"
+    },
+    {
+      "id": 4,
+      "name": "Green Juice Bar",
+      "type": "Beverages",
+      "rating": 4.8,
+      "time": "2 min",
+      "img": "#009688",
+      "category": "uni"
+    },
+    {
+      "id": 11,
+      "name": "City Wok",
+      "type": "Chinese",
+      "rating": 4.6,
+      "time": "25 min",
+      "img": "#FF5722",
+      "category": "city"
+    },
+    {
+      "id": 12,
+      "name": "Burger House",
+      "type": "Fast Food",
+      "rating": 4.3,
+      "time": "20 min",
+      "img": "#FF9800",
+      "category": "city"
+    },
+    {
+      "id": 13,
+      "name": "Kottu Labs",
+      "type": "Sri Lankan",
+      "rating": 4.7,
+      "time": "15 min",
+      "img": "#FFC107",
+      "category": "city"
+    },
+    {
+      "id": 14,
+      "name": "Cafe Noir",
+      "type": "Coffee & Bakery",
+      "rating": 4.9,
+      "time": "10 min",
+      "img": "#795548",
+      "category": "city"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 101,
+      "title": "Luxury Room for Rent near University",
+      "location": "Vavuniya Town",
+      "price": "15,000",
+      "views": "142",
+      "status": "Active",
+      "category": "city"
+    },
+    {
+      "id": 102,
+      "title": "Single Room for Students",
+      "location": "Pampaimadu",
+      "price": "8,500",
+      "views": "38",
+      "status": "Active",
+      "category": "student"
+    }
+  ],
+  "activity": []
+}
