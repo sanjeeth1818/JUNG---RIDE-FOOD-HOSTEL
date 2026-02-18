@@ -1,16 +1,19 @@
-# React + Vite
+**JUNG – Ride, Food & Hostel**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**JUNG** – Ride, Food & Hostel is a full-stack web application built using React, Node.js, and MySQL. This platform is primarily designed to make student life easier by providing services that university students frequently need—rides, hostel/room search, and food options—all in one place.
 
-Currently, two official plugins are available:
+The app also includes live GPS tracking, allowing students to see real-time locations and navigate efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Features**
 
-## React Compiler
+Ride Sharing – Find or offer rides within the campus or nearby areas.
+Hostel & Room Finder – Search for available hostels or rooms tailored for students.
+Food Options – Discover nearby restaurants or student-friendly food services.
+Live GPS Tracking – Track rides or hostel locations in real time on the map.
+Responsive UI – Works well on both desktop and mobile devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Tech Stack**
+Frontend: React.js
+Backend: Node.js, Express.js
+Database: MySQL
+Other Tools: OpenStreet Maps API (for GPS tracking)
